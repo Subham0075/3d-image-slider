@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>3D Image Slider</title>
     <style>
-        
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        body{
+        body {
             background-color: #D2D2D2;
             background-image:
             repeating-linear-gradient(
@@ -24,7 +23,7 @@
             );
         }
         
-        body::before{
+        body::before {
             position: absolute;
             width: min(1400px, 90vw);
             top: 10%;
@@ -32,7 +31,7 @@
             height: 90%;
             transform: translateX(-50%);
             content: '';
-            background-image: url(images/bg.png);
+            background-image: url(./images/bg.png);
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: top center;
@@ -45,16 +44,16 @@
 
     <div class="banner">
         <div class="slider" style="--quantity: 10">
-            <div class="item" style="--position: 1"><img src="images/s01.jpeg" alt=""></div>
-            <div class="item" style="--position: 2"><img src="images/s02.jpeg" alt=""></div>
-            <div class="item" style="--position: 3"><img src="images/s03.jpeg" alt=""></div>
-            <div class="item" style="--position: 4"><img src="images/s04.jpeg" alt=""></div>
-            <div class="item" style="--position: 5"><img src="images/s05.jpeg" alt=""></div>
-            <div class="item" style="--position: 6"><img src="images/s06.jpeg" alt=""></div>
-            <div class="item" style="--position: 7"><img src="images/s07.jpeg" alt=""></div>
-            <div class="item" style="--position: 8"><img src="images/s08.jpeg" alt=""></div>
-            <div class="item" style="--position: 9"><img src="images/s09.jpeg" alt=""></div>
-            <div class="item" style="--position: 10"><img src="images/s10.jpeg" alt=""></div>
+            <div class="item" style="--position: 1"><img src="./images/s01.jpeg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="./images/s02.jpeg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="./images/s03.jpeg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="./images/s04.jpeg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="./images/s05.jpeg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="./images/s06.jpeg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="./images/s07.jpeg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="./images/s08.jpeg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="./images/s09.jpeg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="./images/s10.jpeg" alt=""></div>
         </div>
         <div class="content">
             <h1 data-content="CSS ONLY">
@@ -63,9 +62,7 @@
             <div class="author">
                 <h2>DEV SLIDER</h2>
                 <p><b>Web Design</b></p>
-                <p>
-                    Character Is Power
-                </p>
+                <p>Character Is Power</p>
             </div>
             <div class="model"></div>
         </div>
